@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tekle's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/7db16e5617.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/mylogo.png" alt="logo" class="logo" />
+          <ul id="sideMenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1>Fullstack JavaScript Developer👈</h1>
+          <h2>
+            Hi, I'm <span>Tekletsadik</span> Yigzaw<br />
+            from United States.
+          </h2>
+        </div>
+      </div>
+    </div>
+    <!-- ///////////// About code//////////// -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/myphoto.png" alt="My-picture" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="about-me">About Me</h1>
+            <p>
+              Experienced Full Stack JavaScript developer through all phases of
+              the Software Development Life Cycle starting from requirement
+              gathering, analysis, design, and development. Applies strong
+              analytical and problem-solving skills to deliver customized
+              solutions, supporting the attainment of challenging objectives.
+              Also, well-trained in the development of JavaScript projects using
+              the latest JavaScript technologies like HTML5, CSS, Bootstrap,
+              React, Angular, NodeJS, MongoDB, Express, etc.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Front-end Development</span><br />Web App Developer
+                </li>
+                <li>
+                  <span>Back-end</span><br />NodeJS, ExpressJS, MongoDB,...
+                </li>
+                <li><span>Data Expert</span><br />MySQL, Excell-sheet,...</li>
+                <li>
+                  <span>Applied Physics/Physics Teacher</span><br />Physics Lab
+                  Teacher
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Dec 2019 - Present</span><br />Full Stack JavaScript
+                  Developer at CVS LLC
+                </li>
+                <li>
+                  <span>Mar 2019 - Dec 2019</span><br />Full Stack JavaScript
+                  Developer at Santim Ethiopia LCC
+                </li>
+                <li>
+                  <span>2018-2019</span><br />Data Expert at Amhara science and
+                  Technology Commission
+                </li>
+                <li>
+                  <span>2011-2017</span><br />Physics Teacher/Instractor at BDA
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2021-2023</span><br />Msc./Master in Software
+                  Development from Maharishi International University(USA)
+                </li>
+                <li>
+                  <span>2017-2019</span><br />
+                  Bsc Computer Science from Alkan University
+                </li>
+                <li>
+                  <span>2012-2017</span><br />Bsc in Engineering from Bahirdar
+                  University
+                </li>
+                <li>
+                  <span>2007-2010</span><br />Bsc in Applied Physics from
+                  Arbaminch University
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ///////////// Services-code //////////// -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div class="sub-service">
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-square-js"></i>
+            <i class="fa-brands fa-react"></i>
+            <i class="fa-brands fa-angular"></i>
+            <h3>Front-end Developer</h3>
+            <p>
+              As a Front-end developer, my primary role is to create the
+              user-facing part of websites and applications using HTML, CSS, and
+              JavaScript. My expertise in these technologies allows me to
+              structure content, add interactivity, and style the content to
+              create engaging and responsive web experiences. Additionally, I
+              have experience working with popular front-end frameworks such as
+              ReactJS and AngularJS, which provide more efficient and
+              streamlined ways of building complex web applications. My passion
+              for front-end development and commitment to staying up-to-date
+              with the latest trends and technologies in the field allows me to
+              create high-quality and dynamic user interfaces that meet the
+              needs of my clients and their audiences.<br />
+              <a href="#">Learn More</a>
+            </p>
+          </div>
+          <div class="sub-service">
+            <i class="fa-brands fa-node-js"></i>
+            <i class="fa-brands fa-envira"></i>
+            <h3>Back-end Developer</h3>
+            <p>
+              As a back-end developer, my expertise lies in designing and
+              building the server-side components of websites and applications.
+              I have extensive experience using NodeJS and Express to create
+              scalable and robust back-end systems that handle the storage and
+              retrieval of data, user authentication, and overall functionality.
+              I am also proficient in using MongoDB and Mongoose to manage data
+              efficiently and securely. Additionally, I have a deep
+              understanding of APIs and how to design and implement them to
+              enable seamless communication between the front-end and back-end
+              systems. I am dedicated to creating back-end systems that are not
+              only efficient and reliable but also secure and protect user
+              privacy. With my strong problem-solving skills and attention to
+              detail, I am confident in my ability to create high-quality
+              back-end solutions for any project<br />
+              <a href="#">Learn More</a>
+            </p>
+          </div>
+          <div class="sub-service">
+            <i class="fa-regular fa-file-excel"></i>
+            <!-- <i class="fa-solid fa-crop-simple"></i> -->
+            <h3>Data Expert</h3>
+            <p>
+              As a data expert proficient in Microsoft Excel and SQL, I possess
+              a strong understanding of data analysis and management. My
+              expertise in Excel enables me to effectively organize and
+              manipulate data, perform complex calculations, and create dynamic
+              charts and visualizations. Additionally, my proficiency in SQL
+              allows me to efficiently extract and transform data from
+              databases, write complex queries, and build relational models.
+              With these skills, I am able to provide valuable insights and make
+              data-driven recommendations to support business
+              decision-making.<br />
+              <a href="#">Learn More</a>
+            </p>
+          </div>
+          <div class="sub-service">
+            <!-- <i class="fa-solid fa-rocket"></i> -->
+            <i class="fa-brands fa-space-awesome"></i>
+            <h3>Physics Teacher</h3>
+            <p>
+              As a Physics Lab teacher, I have designed and implemented
+              experimental procedures, utilized laboratory instruments, and
+              provided clear instructions to create a dynamic learning
+              environment that fosters critical thinking, problem-solving, and
+              inquiry-based learning in my students.
+
+              <br />
+              <a href="#">Learn More</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ///////////// portfolio-code //////////// -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/mylogo.png" alt="Project1" />
+            <div class="layer">
+              <h3>Online Shopping by React</h3>
+              <p>
+                My Online Shopping App project, created using React, showcases
+                my skills in implementing dynamic, user-friendly web
+                applications. I utilized various React libraries and tools,
+                including Redux and React Router, to create features such as
+                product listings, shopping carts, and secure checkout processes.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/mylogo.png" alt="Project2" />
+            <div class="layer">
+              <h3>Hotel Management by React-Native</h3>
+              <p>
+                The Hotel Management App project I developed using React-Native
+                is an intuitive and user-friendly application designed to
+                efficiently manage guest reservations, room assignments, and
+                housekeeping tasks. This project showcases my expertise in
+                React-Native development and practical solutions for the
+                hospitality industry.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/mylogo.png" alt="Project3" />
+            <div class="layer">
+              <h3>Goal Trucker by Angular</h3>
+              <p>
+                My Goal Truck App project, built with AngularJS, is a personal
+                productivity tool that help users stay on track with their
+                goals. Its clean interface and features like milestone tracking
+                and goal visualization help users stay motivated and focused on
+                achieving their objectives.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/mylogo.png" alt="Project3" />
+            <div class="layer">
+              <h3>My Portfolio Using HTML, CSS, JS and Upload Using AWS</h3>
+              <p>
+                My Portfolio, built using HTML, CSS, and JavaScript, and
+                deployed using cloud-based on AWS, showcases my skills in
+                front-end web development. The modern design, user-friendly
+                interface, and seamless functionality highlight my expertise.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- ///////////// contact-code //////////// -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-regular fa-paper-plane"></i>contact@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>(312) 772-5519</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://facebook.com"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="/images/yigzaw.tekletsadik.pdf" download class="btn btn2"
+              >Download Resume</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" />
+              <input type="email" name="Email" placeholder="Your Email" />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="submsg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright ©️ Tekletsadik Yigzaw. Feel free to Contact me 👏</p>
+      </div>
+    </div>
+    <script>
+      let tablinks = document.getElementsByClassName('tab-links');
+      let tabcontents = document.getElementsByClassName('tab-contents');
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove('active-link');
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove('active-tab');
+        }
+        event.currentTarget.classList.add('active-link');
+        document.getElementById(tabname).classList.add('active-tab');
+      }
+    </script>
+    <script>
+      var sideMenu = document.getElementById('sideMenu');
+      function openmenu() {
+        sideMenu.style.right = '0';
+      }
+      function closemenu() {
+        sideMenu.style.right = '-200px';
+      }
+    </script>
+    <script>
+      const scriptURL =
+        'https://script.google.com/macros/s/AKfycbyX-ap2bYYZKRB4CNWkU4bFNLcRYXKYjfyLBUvWNYldxUslQiZXjgmB6YmBLbMu3Rw8/exec';
+      const form = document.forms['submit-to-google-sheet'];
+      const submsg = document.getElementById('submsg');
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then((response) => {
+            submsg.innerHTML = 'Message Sent Successfully!👍';
+            setTimeout(function () {
+              submsg.innerHTML = '';
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error('Error!', error.message));
+      });
+    </script>
+  </body>
+</html>

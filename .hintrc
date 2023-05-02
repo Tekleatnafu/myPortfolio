@@ -1,0 +1,14 @@
+{
+  "extends": ["development"],
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 110",
+    "not firefox <= 111"
+  ],
+  "hints": {
+    "detect-css-reflows/paint": "off",
+    "detect-css-reflows/composite": "off",
+    "detect-css-reflows/layout": "off"
+  }
+}
